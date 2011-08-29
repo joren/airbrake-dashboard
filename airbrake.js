@@ -1,0 +1,1 @@
+document.getElementById("header").getElementsByTagName("h1")[0].getElementsByTagName("a")[0].href = "/errors"

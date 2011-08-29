@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+			"matches": [ "https://*.airbrakeapp.com/*"],
+			"js": ["airbrake.js"]
+   } ],
+   "description": "Airbrake dashboard replaces the logo-link to the /errors page.",
+   "name": "Airbrake Dashboard",
+   "version": "0.1",
+		"icons": {
+	      "128": "airbrake_128.jpg",
+	      "48": "airbrake_48.jpg"
+	   }
+}
