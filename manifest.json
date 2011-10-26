@@ -1,6 +1,6 @@
 {
    "content_scripts": [ {
-			"matches": [ "https://*.airbrakeapp.com/*"],
+			"matches": [ "https://*.airbrake.io/*"],
 			"js": ["airbrake.js"]
    } ],
    "description": "Airbrake dashboard replaces the logo-link to the /errors page.",
